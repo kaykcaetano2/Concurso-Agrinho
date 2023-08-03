@@ -1,0 +1,64 @@
+@font-face {
+    font-family:'fonte';
+    src: url('Creativo\ Italic.otf') format('opentype');
+}
+*{
+    background-color: #DDDDDD;
+}
+.barra, a{
+    display: flex;
+    background-color: #CCCCCC;
+    justify-content: space-around;
+    text-decoration:none;
+    color: #12A700;
+}
+.titu{
+    font-size: 60px;
+    font-family: 'fonte';
+    padding: 20px 0 0 0;
+}
+img{
+    width: 5%;
+}
+.cabeçalho{
+    background-color: #AAAAAA;
+    display: flex;
+    justify-content: space-between;
+}
+.linkss{
+    font-size: 25px;
+}
+.textos{
+    display: flex;
+    justify-content: space-between;
+}
+.texto{
+    font-size: 35px;
+    font-family: 'fonte';
+    width: 70%;
+}
+.desenhos{
+    display: flex;
+    justify-content: end;
+}
+a:hover {
+    background-color: #BBBBBB;
+    color: #0B6A00;
+}
+.fala{
+    width: 50%;
+    font-size: 30px;
+    font-family: 'fonte';
+    display: flex;
+    justify-content: end;
+    padding: 0 0 0 30px;
+}
+.footer{
+    top: 100%;
+    width: 100%;
+    opacity: 80%;
+}
+.ordem{
+    display: flex;
+    justify-content: space-between;
+}
